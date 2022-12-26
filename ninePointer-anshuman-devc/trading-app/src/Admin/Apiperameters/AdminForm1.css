@@ -1,0 +1,26 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    border: 1px solid black;
+    height: 15vh;
+    background-color: aqua;
+    margin-left: 25%;
+}
+.logo{
+    margin-left: 25%;
+    font-size: 18px;
+}
+.Side_div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 20%;
+    height: fit-content;
+}
+
+.Side_div h3{
+    margin-left: 3rem;
+} */

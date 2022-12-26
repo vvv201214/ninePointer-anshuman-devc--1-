@@ -1,0 +1,59 @@
+
+.login_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.login_heading{
+    font-size: 25px;
+
+}
+.sub_login_form{
+    width: 20rem;
+    height: 13rem;
+    padding-top: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgb(175, 175, 175);
+}
+.user_id, .password{
+    width: 19rem;
+    height: 1.5rem;
+    margin-top: .5rem;
+    border: none;
+    border-bottom: .5px solid rgb(117, 117, 117);
+}
+.user_id:focus, .password:focus{
+    outline: none;
+}
+.login_btn{
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    font-size:15px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+    background-color: #187498;;
+}
+.btn_forget{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: small;
+}
+.bottom_font{
+    margin-top: 20px;
+}

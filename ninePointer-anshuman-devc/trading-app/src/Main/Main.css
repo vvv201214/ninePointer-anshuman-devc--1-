@@ -1,0 +1,14 @@
+.main_new{
+    display: flex;
+    /* border: 10px solid black; */
+}
+
+.main_content_new{
+    flex: .80;
+  
+
+}
+.sidebar_new{
+    flex: .20;
+    /* border: 5px solid purple; */
+}

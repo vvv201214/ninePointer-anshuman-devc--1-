@@ -1,0 +1,61 @@
+.grid_1{
+   
+    max-height: max-content;
+    background: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 7px;
+}
+.main_dateSelData{
+    min-width: 50%;
+    max-width: 100%;
+    margin: 1% 0% 0% 0%;
+}
+.form_div{
+    margin: 0% 0% 1% 0%;
+
+}
+.formLable{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 2%;
+    display: inline;
+}
+
+.formInput{
+    border-radius: 3px;
+    width: 7rem;
+    height: 1.4rem;
+    font-weight: bold;
+    border: none;
+    display: inline;
+    text-align: center;
+    
+
+}
+.formInput1{
+    min-width: 5%;
+    max-width: 10%;
+    text-align: center;
+}
+.formSelect{
+    width: 7rem;
+    height: 1.5rem;
+    border: none;
+
+}
+
+.btn_div{
+    margin: 2%;
+    margin-left: -5px;
+}
+.formButton{
+    margin-left: 20%;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(175, 168, 168);
+    font-weight: bold;
+}

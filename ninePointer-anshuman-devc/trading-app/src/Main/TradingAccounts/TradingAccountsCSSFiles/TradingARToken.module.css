@@ -1,0 +1,70 @@
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    /* margin: 100px auto 0; */
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modalContent {
+    width: 100%;
+    max-height: 100% ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    /* background: #f1f1f1; */
+    background-color: #4184F3;
+    padding: 14px 28px;
+    border-radius: 5px;
+    max-width: 600px;
+    min-width: 300px;
+    
+}
+.Form_head{
+    margin-top: 3rem;
+  
+}
+.main_instrument_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px ;
+    
+}
+.Ac_forminput{
+    margin: 2px;
+    width: 90%;
+    height: 2rem;
+    border-radius: 5px;
+}
+.Ac_form{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 2px;
+
+}
+.ACform_tbn{
+    margin: 10px;
+    width: 5rem;
+    height: 2rem;
+    background-color: #010101;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

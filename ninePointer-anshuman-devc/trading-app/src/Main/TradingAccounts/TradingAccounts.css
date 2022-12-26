@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background-color: #d9d9d9;
+  
+}
+
+.main_Container {
+    display: flex;
+   
+}
+.leftsidebar {
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 20%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-right: -1rem;
+    background-color:#187498;
+    border-radius: 5px;
+    position: fixed;
+   
+}
+
+
+.userSidebar_div {
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidbar_h6{
+    text-align: center;
+    padding-top: 5px;
+    color: #f6f6f6;
+}
+.sidebar_items{
+   width: auto;
+   height: auto;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-top: 1rem;
+   background-color: #f6f6f6;
+   border-radius: 20px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   border: none;
+   
+}
+.sidebar_items:has(> a.active){
+    background-color:#5479FC;
+   
+}
+.active{
+    color:#187498;   
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    border-bottom: 2px solid black;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.sidebar_item {
+   position: relative;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    min-height: 10%;
+    border-radius: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bold;
+   
+}
+.right_side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.User_header {
+    min-height: 3rem;
+    max-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #428BCA;
+    border-radius: 5px;
+}
+.header_para{
+    min-width: 50%;
+    max-width: 70%;
+    min-height: 9%;
+    max-height: 15%;
+    margin-left: 5px;
+    font-size: 2rem;
+    padding: 12px;
+    
+}
+.logo_btn{
+    background-color:#5479FC;
+    min-width: 20%;
+    max-width: 50%;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    border: none;
+   
+}
+.livePrice_table{
+    display: flex;
+}
+.Editbutton{
+    float: left;
+    font-size: 18px;
+    
+}
+.DetailsBtn{
+    width: 5rem;
+    height: 1.5rem;
+    background-color: #bfbfbf;
+    font-weight: bold;
+    float: right;
+    margin: 1% 3%;
+    border: none;
+    border-radius: 4px;
+}

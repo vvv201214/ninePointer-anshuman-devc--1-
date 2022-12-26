@@ -1,0 +1,29 @@
+.buttons{
+    /* border: 1px solid red; */
+    margin: 0.1%;
+    display: flex;
+    justify-content:space-between;
+}
+.PrevButtons{
+    margin: 1%;
+    width: 3rem;
+    height: 3.5vh;
+    background-color: #5479FC;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 5%;
+
+}
+.nextButtons{
+    margin: 1%;
+    margin-right: 5%;
+    width: 3rem;
+    height: 3.5vh;
+    background-color: #5479FC;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}

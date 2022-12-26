@@ -1,0 +1,23 @@
+.Companyorder_ul{
+    display: flex;
+   
+
+}
+.Companyorder_li{
+    min-width: 13%;
+    max-width: max-content;
+    list-style: none;
+    margin: 10px 2px 2px 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 1%;
+    
+}
+.Companyorder_li :hover{
+    cursor: pointer;
+}
+/* .Companyorder_div{
+   
+} */

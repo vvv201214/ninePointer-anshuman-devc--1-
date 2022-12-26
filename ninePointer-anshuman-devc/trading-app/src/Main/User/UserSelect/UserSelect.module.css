@@ -1,0 +1,10 @@
+.userselectbtn{
+    width: 3rem;
+    height: 1.5rem;
+    margin-left: 6%;
+    background-color: #187498;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}

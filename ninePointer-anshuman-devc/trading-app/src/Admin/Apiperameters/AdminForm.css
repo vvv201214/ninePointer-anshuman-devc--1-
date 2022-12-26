@@ -1,0 +1,52 @@
+ /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: grey;
+}
+.main_div {
+    margin-right: 1rem;
+    width: 80wh;
+    margin-left: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+ button {
+    width: 8rem;
+    height: 3rem;
+    margin: 1rem;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+} 
+.main_form {
+    border: 1px solid red;
+    font-size: 18px;
+    margin-right: 2rem;
+}
+.form_btn {
+    margin-top: -1rem;
+}
+.name_input {
+    height: 30px;
+}
+label {
+    font-weight: bold;
+}
+.select_input {
+    font-weight: bold;
+}
+
+.output_list {
+    list-style: none;
+}
+.output_li {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+} */

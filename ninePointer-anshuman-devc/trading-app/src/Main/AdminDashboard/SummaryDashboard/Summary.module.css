@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.topbox {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.second_box {
+    display: flex;
+    height: 50vh;
+   
+}
+
+.boxliveData {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+    
+    
+}
+.boxliveNumber{
+    margin-top: 8%;
+    margin-left: 15%;
+    
+
+}
+
+
+.topboxmock {
+    width: 33.33%;
+    background-color: white;
+    padding: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.liveBoxone {
+    width: 50%;
+    border: 7px solid rgb(0, 128, 0, 0.3);
+    border-radius: 10px;
+    margin: 0.3%;
+
+}
+
+.blinkitlive {
+    margin-top: 2%;
+    margin-left: 2%;
+    color: black;
+    animation: blinker 1s linear infinite;
+}
+
+.divGroupsOne {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+.divGroupsTwo {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.boxlive_table  {
+    margin-top: 10px;
+   margin-left: 3%;
+   
+}
+
+.boxlive_th{
+    font-size: 13px;
+    text-align: center;
+    border-right: 1px solid #000900;
+    
+}
+
+.boxlive_td{
+    text-align: center;
+    font-size:12px;
+    font-weight: 600;
+}
+
+
+.box1 {
+    border-bottom: 5px solid rgb(0, 128, 0);
+    background-color: rgb(169, 166, 166);
+    min-width: 32%;
+    max-width: 35%;
+    min-height: 15vh;
+    margin: 3% 1%; 
+    border-radius: 5px;
+ 
+}
+
+.box2 {
+    border-bottom: 5px solid rgb(0, 128, 0);
+    background-color: rgb(169, 166, 166);
+    min-width: 32%;
+    max-width: 35%;
+    min-height: 15vh;
+    margin: 3% 1%; 
+    border-radius: 5px;
+
+}
+
+.box3 {
+    border-bottom: 5px solid rgb(0, 128, 0);
+    background-color: rgb(169, 166, 166);
+    min-width: 32%;
+    max-width: 35%;
+    min-height: 15vh;
+    margin: 3% 1%; 
+    border-radius: 5px;
+    
+}
+
+.box4 {
+    border-bottom: 5px solid rgb(0, 128, 0);
+    background-color: rgb(169, 166, 166);
+    min-width: 32%;
+    max-width: 35%;
+    min-height: 15vh;
+    margin: 3% 1%; 
+    border-radius: 5px;
+}
+
+.box5 {
+    border-bottom: 5px solid rgb(0, 128, 0);
+    background-color: rgb(169, 166, 166);
+    min-width: 32%;
+    max-width: 35%;
+    min-height: 15vh;
+    margin: 3% 1%; 
+    border-radius: 5px;
+}
+
+.box6 {
+    border-bottom: 5px solid rgb(0, 128, 0);
+    background-color: rgb(169, 166, 166);
+    min-width: 32%;
+    max-width: 35%;
+    min-height: 15vh;
+    margin: 3% 1%; 
+    border-radius: 5px;
+  
+}
+
+.mockBoxone {
+    width: 50%;
+    border: 7px solid rgb(66, 139, 202, 0.3);
+    margin: 0.3%;
+    border-radius: 10px;
+}
+
+.mockbox1 {
+    border-bottom: 5px solid rgb(66, 139, 202);
+   
+}
+
+.blinkitmock {
+    color: black;
+    font-weight: 800px;
+    animation: blinker 1s linear infinite;
+    margin-top: 2%;
+    margin-left: 2%;
+
+
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
